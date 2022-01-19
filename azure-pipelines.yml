@@ -15,7 +15,7 @@ steps:
   displayName: 'npm install'
 
 - script: |
-    npm test
+    npm run test 
   displayName: 'npm test'
 
 - task: ArchiveFiles@2
